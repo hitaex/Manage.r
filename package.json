@@ -2,9 +2,9 @@
   "name": "manage.r",
   "version": "1.0.0",
   "description": "A bot",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ."
   },
   "repository": {
     "type": "git",
@@ -23,10 +23,6 @@
   },
   "homepage": "https://github.com/hitaex/Manage.r#readme",
   "dependencies": {
-    "@discordjs/rest": "^2.3.0",
-    "chalk": "^4.1.2",
-    "discord-api-types": "^0.37.93",
-    "discord.js": "^14.15.3",
-    "dotenv": "^16.4.5"
+    "discord.js": "^14.15.3"
   }
 }
